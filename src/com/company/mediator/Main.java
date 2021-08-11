@@ -5,6 +5,7 @@ public class Main {
         // 创建中介者
         UnitedNationsSecurityCouncil unitedNationsSecurityCouncil = new UnitedNationsSecurityCouncil();
 
+
         // 每个国家都接入中介者
         USA usa = new USA(unitedNationsSecurityCouncil);
         Iraq iraq = new Iraq(unitedNationsSecurityCouncil);
